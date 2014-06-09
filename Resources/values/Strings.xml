@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">RottenTomatoes</string>
+	<string name="refresh">Refresh</string>
+	<string name="compliance">The Fresh Tomato logo and Rotten splat logo ®Rotten Tomatoes. All rights reserved. All data from Rotten Totmato.</string>
+</resources>

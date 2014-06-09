@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="50dp"
+    android:minHeight="100dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="77.0dp"
+        android:id="@+id/movie_poster"
+        android:layout_height="122.7dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="50px"
+        android:layout_width="79.9dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="1"
+        android:padding="7dp">
+        <TextView
+            android:text="Title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_title" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/Icon"
+                android:id="@+id/fresh_rotten_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:minWidth="25dp"
+                android:minHeight="25dp"
+                android:scaleType="fitXY" />
+            <TextView
+                android:text="critic fresh/rotten"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:id="@+id/overall_critic" />
+        </LinearLayout>
+        <TextView
+            android:text="cast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cast" />
+        <TextView
+            android:text="ratting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating" />
+        <TextView
+            android:text="runtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/run_time" />
+    </LinearLayout>
+</LinearLayout>
